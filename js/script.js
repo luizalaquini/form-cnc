@@ -1,3 +1,0 @@
-function sendForm (e){
-    onclick();
-}
