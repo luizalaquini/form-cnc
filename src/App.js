@@ -3,12 +3,13 @@ import socketIOClient from 'socket.io-client';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React, { useState } from 'react';
 
-const socket = socketIOClient('http://localhost:5000');
+const socket = socketIOClient('https://server-cnc.herokuapp.com/', {
+    transports: ['websocket', 'polling', 'flashsocket']
+});
 
 socket.on('recebido_forms', (data) => {
     console.log("ok - " + data);
 });
-
 
 function App() {
     const [modelo, setModelo] = useState('');
