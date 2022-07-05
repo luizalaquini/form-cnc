@@ -24,24 +24,16 @@ function App() {
     const [volt, setVolt] = useState('');
     const [nCrea, setNCrea] = useState('');
 
-    /*function clearForm (e){
-        setModelo('');
-        setNumSerie('');
-        setCapDeCarga('');
-        setDataFabMes('');
-        setDataFabAno('');
-        setClassUtil('');
-        setEstadoCarga('');
-        setPeso('');
-        setPotInstal('');
-        setVolt('');
-        setNCrea('');
-    }*/
+    function clearForm (){
+        for (let input of document.getElementsByClassName('input-field')){
+            input.value = '';
+        }
+    }
 
     function handleSubmitToServer(e){
         e.preventDefault();
         socket.emit('data', [modelo, numSerie, capDeCarga, dataFabMes, dataFabAno, classUtil, estadoCarga, peso, potInstal, volt, nCrea]);
-        /*clearForm();*/
+        clearForm();
     }
 
     /*function successMessage(e){
