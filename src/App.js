@@ -50,6 +50,8 @@ function App() {
                 <img alt='Logo Maquilaq' src='/logo-Maquilaq.png' />
             </header>
 
+            <p className='instructions'>Caracteres permitidos: letras, números, vírgula(","), hífen("-") e barra ("/").</p>
+
             <form onSubmit={handleSubmitToServer} className="my-form">
                 <div className="row">
                     <label className="col-lg-1 col-form-label" htmlFor="modelo">MODELO</label>
