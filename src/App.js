@@ -30,10 +30,25 @@ function App() {
         }
     }
 
+    function resetStates(){
+        setModelo('');
+        setNumSerie('');
+        setCapDeCarga('');
+        setDataFabMes('');
+        setDataFabAno('');
+        setClassUtil('');
+        setEstadoCarga('');
+        setPeso('');
+        setPotInstal('');
+        setVolt('');
+        setNCrea('');
+    }
+
     function handleSubmitToServer(e){
         e.preventDefault();
         socket.emit('data', [modelo, numSerie, capDeCarga, dataFabMes, dataFabAno, classUtil, estadoCarga, peso, potInstal, volt, nCrea]);
         clearForm();
+        resetStates();
     }
 
     /*function successMessage(e){
