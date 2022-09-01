@@ -25,5 +25,5 @@ Each of the fields represents a position in the nameplate that will be printed. 
 
 ### Developers
 - Luiza Batista Laquini (LinkedIn: https://www.linkedin.com/in/luizalaquini/)
-- Guilherme Goes Zanetti: (LinkedIn: https://www.linkedin.com/in/guilherme-goes-zanetti-0429631a2/)
-- Joana Venturin Loureiro
+- Guilherme Goes Zanetti (LinkedIn: https://www.linkedin.com/in/guilherme-goes-zanetti-0429631a2/)
+- Joana Venturin Loureiro (LinkedIn: https://www.linkedin.com/in/joana-venturin-loureiro/)
