@@ -6,8 +6,7 @@ import React, { useState } from 'react';
 const socket = socketIOClient('https://server-cnc.herokuapp.com/', {
     transports: ['websocket', 'polling', 'flashsocket']
 });
-// https://server-cnc.herokuapp.com/ 
-// https://server-75ps4q3vc-luizalaquini.vercel.app/
+// https://server-cnc.herokuapp.com/ (heroku)
 
 socket.on('recebido_forms', (data) => {
     console.log("ok - " + data);
