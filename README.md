@@ -1,4 +1,5 @@
 # Form CNC
+![GitHub](https://img.shields.io/github/license/luizalaquini/form-cnc)
 ![GitHub repo size](https://img.shields.io/github/repo-size/luizalaquini/form-cnc)
 ![GitHub language count](https://img.shields.io/github/languages/count/luizalaquini/form-cnc)
 ![GitHub top language](https://img.shields.io/github/languages/top/luizalaquini/form-cnc)
