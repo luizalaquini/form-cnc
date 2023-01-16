@@ -8,9 +8,6 @@ Running Page:
 
 https://form-cnc.herokuapp.com/ (Not Working)
 
-https://form-hqrt7czip-luizalaquini.vercel.app (Working)
-
-
 ### Usage
 We are using this form to catch wich information shoul be written by CNC machine. 
 
