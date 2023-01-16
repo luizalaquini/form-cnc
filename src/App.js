@@ -3,9 +3,12 @@ import socketIOClient from 'socket.io-client';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React, { useState } from 'react';
 
-const socket = socketIOClient('https://server-cnc.herokuapp.com/', {
+const socket = socketIOClient('https://server-75ps4q3vc-luizalaquini.vercel.app/', {
     transports: ['websocket', 'polling', 'flashsocket']
 });
+// https://server-cnc.herokuapp.com/ 
+// https://server-75ps4q3vc-luizalaquini.vercel.app/
+
 
 socket.on('recebido_forms', (data) => {
     console.log("ok - " + data);
