@@ -4,7 +4,12 @@
 ![GitHub top language](https://img.shields.io/github/languages/top/luizalaquini/form-cnc)
 ![GitHub followers](https://img.shields.io/github/followers/luizalaquini?label=follow&style=social)
 
-Running Page: https://form-cnc.herokuapp.com/
+Running Page: 
+
+https://form-cnc.herokuapp.com/ (Not Working)
+
+https://form-hqrt7czip-luizalaquini.vercel.app (Working)
+
 
 ### Usage
 We are using this form to catch wich information shoul be written by CNC machine. 
